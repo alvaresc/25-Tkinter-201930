@@ -8,8 +8,8 @@ Example showing for tkinter and ttk:
 
 Authors: David Mutchler, Vibha Alangar, Matt Boutell, Dave Fisher,
          Mark Hays, Amanda Stouder, Aaron Wilkin, their colleagues,
-         and PUT_YOUR_NAME_HERE.
-"""  # TODO: 1. PUT YOUR NAME IN THE ABOVE LINE.
+         and Sam Alvares.
+"""  # Done: 1. PUT YOUR NAME IN THE ABOVE LINE.
 
 import tkinter
 from tkinter import ttk
@@ -21,8 +21,9 @@ def main():
 
     frame1 = ttk.Frame(root, padding=10)
     frame1.grid()
-
+    # Command is what is to occur when button is pressed.  lambda defines function.  Nameless function
     print_stuff_button = ttk.Button(frame1, text='Print stuff')
+    # Could be lambda: do_stuff()
     print_stuff_button['command'] = (lambda:
                                      do_stuff())
     print_stuff_button.grid()

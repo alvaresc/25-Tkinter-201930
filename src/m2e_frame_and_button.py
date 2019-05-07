@@ -17,8 +17,10 @@ def main():
     root = tkinter.Tk()
 
     frame1 = ttk.Frame(root, padding=10)
+    # USE GRID NOT PACK
     frame1.grid()
 
+    # TEXT=FORWARD IS OPTIONAL PARAMETER
     go_forward_button = ttk.Button(frame1, text='Forward')
     go_forward_button.grid()
 

@@ -19,8 +19,8 @@ is sometimes more convenient but never necessary.
 
 Authors: David Mutchler, Vibha Alangar, Matt Boutell, Dave Fisher,
          Mark Hays, Amanda Stouder, Aaron Wilkin, their colleagues,
-         and PUT_YOUR_NAME_HERE.
-"""  # TODO: 1. PUT YOUR NAME IN THE ABOVE LINE.
+         and Sam Alvares.
+"""  # Done: 1. PUT YOUR NAME IN THE ABOVE LINE.
 
 import tkinter
 from tkinter import ttk
@@ -41,7 +41,8 @@ def main():
     print_entry_button.grid()
 
     root.mainloop()
-
+    # BUTTON PROVIDES INPUT
+    # Dont confuse box with characters inside
 
 def print_contents(entry_box):
     """
